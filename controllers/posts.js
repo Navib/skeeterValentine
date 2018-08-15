@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Post = mongoose.model('posts');
 
 exports.addPost = (req, res) => {
-  Post.findOne({ postID: '5678911' }, (err, existingPost) => {
+  Post.findOne({ postID: '56789111' }, (err, existingPost) => {
     if (err) {
       throw err;
     }
